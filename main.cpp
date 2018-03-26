@@ -38,6 +38,11 @@ void startMqttServer() {
 
 }
 
+void new_function_testing()
+{
+	
+}
+
 void startServer() {
 	InterruptHandler::hookSIGINT();
 	MicroserviceController server;
@@ -58,5 +63,3 @@ int main(int argc, const char * argv[]) {
 	startServer();
 	return 0;
 }
-
-// end
